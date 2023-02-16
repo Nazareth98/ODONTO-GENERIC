@@ -1,0 +1,86 @@
+:root {
+    --font-text: 'Poppins', sans-serif;
+    --font-title: 'Secular One', sans-serif;
+    --font-coursive: 'Marck Script', cursive;
+    --color-primary: #0291A2;
+    --color-secondary: #002358;
+    --color-bg: #FEFEFE;
+    --color-text: #AAA;
+}
+
+.duv-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    padding: 6rem 0;
+}
+
+.duv-content-text {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.duv-content-text button, .duv-content-text p {
+    margin-top: 1rem;
+}
+
+.duv-content-text a {
+    color: var(--color-secondary);
+    font-size: 3rem;
+    margin-right: 15px;
+    transition: .2s ease-in-out;
+}
+
+.duv-content-text a:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-bg);
+    border-radius: 8px;
+    padding: 1px 16px;
+}
+
+.duv-links {
+    width: 50%;
+}
+
+.duv-content-image {
+    height: 100%;
+    width: 45%; 
+}
+.duv-content-image img {
+    box-shadow: var(--color-primary) -18px 18px 0px;
+    border-radius: 2rem;
+    border: 2px solid var(--color-primary);
+    background-color: var(--color-bg);
+}
+
+.duv-phone i{
+    font-size: 1.2rem;
+    margin-right: 5px;
+    color: var(--color-secondary);
+}
+
+.duv-phone {
+    display: flex;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 960px) {
+    .duv-box {
+        flex-direction: column;
+        padding: 0rem 1rem 4rem 1rem;
+    }
+
+    .duv-content-image, .duv-content-text {
+        width: 100%;
+        align-items: stretch;
+    }
+    .duv-content-text {
+        margin-top: 20px;
+    }
+
+}

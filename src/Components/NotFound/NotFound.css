@@ -1,0 +1,54 @@
+:root {
+    --font-text: 'Poppins', sans-serif;
+    --font-title: 'Secular One', sans-serif;
+    --font-coursive: 'Marck Script', cursive;
+    --color-primary: #0291A2;
+    --color-secondary: #002358;
+    --color-bg: #FEFEFE;
+    --color-text: #AAA;
+}
+
+.notFoud-box {
+    padding-top: 80px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.notFound-avatar {
+    width: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notFound-text {
+    width: 40%;
+}
+
+.notFound-text p {
+    margin-top: 20px;
+}
+
+.notFound-text a {
+    color: var(--color-primary);
+    transition: .2s ease-in;
+}
+
+.notFound-text a:hover {
+    color: var(--color-secondary);
+
+}
+
+@media screen and (max-width: 960px) {
+    .notFoud-box {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .notFound-text,
+    .notFound-avatar {
+        width: 100%;
+    }
+}

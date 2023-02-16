@@ -1,0 +1,78 @@
+:root {
+    --font-text: 'Poppins', sans-serif;
+    --font-title: 'Secular One', sans-serif;
+    --font-coursive: 'Marck Script', cursive;
+    --color-primary: #0291A2;
+    --color-secondary: #002358;
+    --color-bg: #FEFEFE;
+    --color-text: #AAA;
+}
+
+.trat-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 800px;
+    
+}
+
+.trat-title {
+    text-align: center;
+    width: 50%;
+}
+
+.trat-sections {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    padding: 30px 0;
+    border-radius: 1rem;
+}
+
+.trat-content-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 100%;
+    width: 45%;
+    
+}
+
+.trat-content-area img{
+    box-shadow: var(--color-primary) 18px 18px 0px;
+    border-radius: 2rem;
+    border: 2px solid var(--color-primary);
+    background-color: var(--color-bg);   
+
+}
+
+.trat-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+    border-radius: .5rem;
+    background-color: var(--color-bg);   
+}
+
+.trat-icon {
+    font-size: 4.5rem;
+    color: var(--color-primary);
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 960px) {
+    .trat-sections {
+        flex-direction: column;
+    }
+
+    .trat-content-area {
+        width: 100%;
+    }
+
+    .trat-title {
+        width: 100%;
+    }
+}

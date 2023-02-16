@@ -1,0 +1,90 @@
+:root {
+    --font-text: 'Poppins', sans-serif;
+    --font-title: 'Secular One', sans-serif;
+    --font-coursive: 'Marck Script', cursive;
+    --color-primary: #0291A2;
+    --color-secondary: #002358;
+    --color-bg: #FEFEFE;
+    --color-text: #AAA;
+}
+
+.sobre-box {
+    padding-top: 80px;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobre-content-text {
+    width: 60%;
+    height: 100%;
+    
+    padding: 30px;
+    border-radius: 2rem;
+}
+
+.sobre-description {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.sobre-content-text h2 {
+    text-align: center;
+}
+
+.sobre-content-text h3 {
+    color: var(--color-secondary);
+    font-size: 1.3rem;
+}
+
+.sobre-content-text i {
+    margin-right: 10px;
+    color: var(--color-secondary);
+}
+
+.sobre-content-text p {
+    padding-left: 10px;
+}
+
+.sobre-item {
+    background-color: var(--color-bg);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+.sobre-content-video {
+    max-width: 352px;
+    max-height: 640px;
+    box-shadow: var(--color-primary) 18px 25px 0px;
+    border-radius: 2rem;
+}
+
+.sobre-content-video iframe {
+    border-radius: 2rem;
+    box-shadow: var(--color-bg) 8px 12px 0px;
+
+}
+
+@media screen and (max-width: 960px) {
+    .sobre-box {
+        flex-direction: column;
+    }
+    .sobre-content-text,
+    .sobre-content-video {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .sobre-content-video{
+        margin-bottom: 50px;
+    }
+    .sobre-description {
+        margin-bottom: 30px;
+    }
+    
+}
+

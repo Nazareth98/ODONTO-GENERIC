@@ -1,0 +1,102 @@
+:root {
+    --font-text: 'Poppins', sans-serif;
+    --font-title: 'Secular One', sans-serif;
+    --font-coursive: 'Marck Script', cursive;
+    --color-primary: #0291A2;
+    --color-secondary: #002358;
+    --color-bg: #FEFEFE;
+    --color-text: #AAA;
+}
+
+.footer-bg {
+    background-color: var(--color-primary);
+    min-height: 300px;
+    width: 100%;
+}
+
+.footer-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 300px;
+}
+
+.footer-section {
+    width: 100%;
+    max-height: 300px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-section > ul > li {
+    margin-top: .5rem;
+}
+
+.footer-section iframe {
+    border: none;
+}
+
+.footer-title {
+    font-size: 2rem;
+    color: var(--color-secondary);
+    font-family: var(--font-title);
+    margin-bottom: 1rem;
+}
+
+.footer-section img {
+    margin-bottom: 20px;
+}
+
+.footer-section a {
+    transition: all 0.2s ease-out;
+
+}
+
+.footer-section a:hover {
+    background-color: var(--color-secondary);
+    border-radius: 4px;
+    padding: 3px 6px;
+}
+
+.footer-subtitle {
+    color: var(--color-secondary);
+    font-family: var(--font-title);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.footer-span {
+    font-size: 2rem;
+    color: var(--color-bg);
+    font-family: var(--font-text);
+}
+
+.footer-text {
+    color: var(--color-bg);
+}
+
+.footer-logo {
+    height: 80px;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-links a {
+    margin-right: 10px;  
+    font-size:2rem; 
+}
+
+@media screen and (max-width: 960px) {
+    .footer-box {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        min-height: 200px;
+        padding: 10px 5px;
+    }
+}
