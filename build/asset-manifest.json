@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.597ba636.css",
+    "main.js": "/static/js/main.9f6f2abd.js",
+    "static/media/endodontia.png": "/static/media/endodontia.83cce58476c6ac9fc827.png",
+    "static/media/clareamento.jpg": "/static/media/clareamento.229d72ae14349da5a926.jpg",
+    "static/media/ortodontia.jpeg": "/static/media/ortodontia.8400ae38a2f16bbb4864.jpeg",
+    "static/media/ProcedimentosBg.jpg": "/static/media/ProcedimentosBg.197dba6435281ec8bfe8.jpg",
+    "static/media/ArteBanner.png": "/static/media/ArteBanner.72893b45a70b6f36f407.png",
+    "static/media/ArteTratamentos.png": "/static/media/ArteTratamentos.1b13c6a83354df3cfdf3.png",
+    "static/media/periodontia.jpg": "/static/media/periodontia.199b448363eee221aa80.jpg",
+    "static/media/ArteDuvidas.png": "/static/media/ArteDuvidas.0f018c091ea7fafbd66d.png",
+    "static/media/lentes.jpg": "/static/media/lentes.e76fb2d19b6dff4ec85a.jpg",
+    "static/media/Arte404.png": "/static/media/Arte404.8bdca15debf61a54ff3a.png",
+    "static/media/halitose.jpg": "/static/media/halitose.1a62fee8a35439d9cdba.jpg",
+    "static/media/protese.jpeg": "/static/media/protese.8c7d68d7ce2643910308.jpeg",
+    "static/media/LogoWhite.png": "/static/media/LogoWhite.e2b4e276b31b5642d661.png",
+    "index.html": "/index.html",
+    "main.597ba636.css.map": "/static/css/main.597ba636.css.map",
+    "main.9f6f2abd.js.map": "/static/js/main.9f6f2abd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.597ba636.css",
+    "static/js/main.9f6f2abd.js"
+  ]
+}
